@@ -9,6 +9,7 @@ export default function TabOneScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab One On One </Text>
+      <Text style={styles.title}>This is a test tab</Text>
       <Button  
           title="Go to Profile"
           onPress={()=>router.push("/two")}
